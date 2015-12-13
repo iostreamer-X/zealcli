@@ -7,7 +7,7 @@ might have a bug or two.
 
 #Install
 
-1. `npm install zeal`
+1. `npm install -g zealcli`
 2. Or build from source. Clone this repo, change directory to the project's root and then `npm install`. And finally `npm link`
 
 #Usage
