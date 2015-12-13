@@ -1,0 +1,30 @@
+{
+  "name": "zeal",
+  "version": "0.1.0",
+  "description": "A P2P radio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "P2P",
+    "Music",
+    "Radio"
+  ],
+  "author": "Amethyst Labs",
+  "license": "MIT",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "deasync": "^0.1.4",
+    "express": "^4.13.3",
+    "external-ip": "^0.2.4",
+    "natman": "0.0.2",
+    "player": "^0.6.1",
+    "pubnub": "^3.7.18",
+    "request": "^2.67.0",
+    "underscore": "^1.8.3"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "zeal": "index.js"
+  }
+}
