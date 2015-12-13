@@ -115,7 +115,7 @@ stdin.on( 'data', function(chunk) {
     }
 
   }
-  
+
   if(input == "stations"){
     if(_.size(stations) == 0){
       printWarn('No one seems to be up yet...')
@@ -178,4 +178,4 @@ player.on('error', function(err){
   console.log(err);
 });
 
-app.listen(8080);
+app.listen(8089);
