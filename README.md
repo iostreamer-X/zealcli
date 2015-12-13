@@ -1,6 +1,6 @@
 #Zeal
 
-Zeal is a part of a bigger project called [Grid]('http://blog.amethystlabs.org/'). This
+Zeal is a part of a bigger project called [Grid](http://blog.amethystlabs.org/). This
 is a cli version of it. Zeal is a radio where people host there playlist/music folder
 and others can listen to these hosted stations. The cli app is built on nodejs and
 might have a bug or two.
