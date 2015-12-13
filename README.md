@@ -14,4 +14,10 @@ might have a bug or two.
 
 If you want to just connect to a station and tune in then,
 
-<script type="text/javascript" src="https://asciinema.org/a/2ljxca9q9knnyus28z616jzjf.js" id="asciicast-2ljxca9q9knnyus28z616jzjf" async></script>
+[![asciicast](https://asciinema.org/a/2ljxca9q9knnyus28z616jzjf.png)](https://asciinema.org/a/2ljxca9q9knnyus28z616jzjf)
+
+And if you want to broadcast your list/folder
+
+[![asciicast](https://asciinema.org/a/5rqln7n3qq5dbksrzqrjdcdaz.png)](https://asciinema.org/a/5rqln7n3qq5dbksrzqrjdcdaz)
+
+Yes, it's that simple to use it.

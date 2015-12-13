@@ -45,6 +45,15 @@ var stdin = process.openStdin();
 stdin.on( 'data', function(chunk) {
   var input = chunk.toString().trim()
 
+  if(input == "help"){
+    printNotice('Here are the commands to use zeal...')
+    console.log(warn('To search for stations: ')+notice('stations'));
+    console.log(warn('To connect to a station: ')+notice('connect $station_id')+'(The long hash is the id)');
+    console.log(warn('To broadcast: ')+notice('radio'));
+    console.log('  '+warn('To broadcast you must start zeal with an argument(the path of music folder).'));
+    console.log(warn('To pause/resume: ')+notice('pause'));
+  }
+
   if(input == "pause")
     player.pause()
 
@@ -178,4 +187,4 @@ player.on('error', function(err){
   console.log(err);
 });
 
-app.listen(8089);
+app.listen(8080);
