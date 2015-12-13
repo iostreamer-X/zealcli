@@ -22,6 +22,6 @@ module.exports = function () {
   var obj={}
   obj.name = os.hostname()
   obj.id = getMac()
-  obj.ip = 'localhost'
+  obj.ip = getIP()
   return obj
 }

@@ -52,11 +52,15 @@ stdin.on( 'data', function(chunk) {
     console.log(warn('To broadcast: ')+notice('radio'));
     console.log('  '+warn('To broadcast you must start zeal with an argument(the path of music folder).'));
     console.log(warn('To pause/resume: ')+notice('pause'));
+    console.log(warn('To play next song: ')+notice('next')+'(works only in radio mode)');
   }
 
   if(input == "pause")
     player.pause()
 
+  if(input == "next")
+    if(isPlaying)
+      player.next()
   if(input == "radio"){
     if(userArgs[0] == undefined){
       printError('Please provide a path to the folder of music you wish to share...')
